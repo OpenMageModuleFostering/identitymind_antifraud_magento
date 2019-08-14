@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <IdentityMind_IdentityMindEdna>
+            <active>true</active>
+            <codePool>local</codePool>
+        </IdentityMind_IdentityMindEdna>
+    </modules>
+</config>

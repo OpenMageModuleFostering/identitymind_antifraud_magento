@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>IdentityMind_AntiFraud_Magento</name>
+    <version>1.0.24</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>IdentityMind Anti Fraud and Risk Management Platform Integration</summary>
+    <description>IdentityMind provides anti fraud and risk management services for online merchants. The integration with Magento enables merchants to protect their store in minutes. It integrates the anti fraud evaluation within the Magento order processing. It also gives merchants access to IdentityMind' s analysis interface and fraud rule configuration.</description>
+    <notes>Please contact IdentityMind for updated User Guide and release notes at cs@identitymind.com</notes>
+    <authors><author><name>Jose Caldera</name><user>josercaldera</user><email>jose@identitymind.com</email></author></authors>
+    <date>2012-10-03</date>
+    <time>13:50:56</time>
+    <contents><target name="magelocal"><dir name="IdentityMind"><dir name="IdentityMindEdna"><dir name="Block"><dir name="Sales"><dir name="Order"><file name="Payment.php" hash="64b3d7c3cbe4944f1ae29de4759f1ee3"/></dir></dir><dir name="System"><dir name="Config"><dir name="Form"><file name="Fieldset.php" hash="2ef6b0e47bda590da77fd6c2bda9852a"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="cac100ebd0155ba7e279dd0020b17ec2"/></dir><dir name="Model"><dir name="Identitymindapi"><file name="Ednarequest.php" hash="eb999c26b363af8e98bcf4770d159559"/><dir name="Utils"><file name="Creditcardutils.php" hash="29e882777047ec135e12b15924276944"/></dir></dir><file name="Observer.php" hash="e919d3b061e9fefd4817383a11925210"/><dir name="Source"><file name="Onerrordropdown.php" hash="c86e83e4ebfaa9ca8050c289bb220ad5"/></dir></dir><dir name="controllers"><file name="IndexController.php" hash="b5e47f0d75425ac321d010aa20932313"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6946e168d3c0ca8b1833fd02a32ee86f"/><file name="config.xml" hash="bad254dab8c927866690538e738b59aa"/><file name="system.xml" hash="64fe11e4054eb3dd3bbc440c2fce0e1c"/></dir><dir name="sql"><dir name="identitymindedna_setup"><file name="install-0.1.0.php" hash="6e412a0e3861bae5db8679847038b2b8"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="29d70e6bcf6c5b5fe827a69b316ed1bb"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="ab8b48c0c4bdd8088c909a407c43f8dc"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IdentityMind_IdentityMindEdna.xml" hash="15e3f9262e345dff79d5042cff43814a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
