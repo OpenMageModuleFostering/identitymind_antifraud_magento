@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/IdentityMind_AntiFraud_Magento",
+    "name": "OpenMageModuleFostering\/IdentityMind_AntiFraud_Magento",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "IdentityMind Anti Fraud and Risk Management Platform Integration",
     "authors": [
-    {
-        "name": "Jose Caldera",
-        "email": "jose@identitymind.com"
-    }
-],
+        {
+            "name": "Jose Caldera",
+            "email": "jose@identitymind.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
